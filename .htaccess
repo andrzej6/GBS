@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^activeworkingsummit/2016(.*)$ http://activeworking.com/summit
+RewriteRule ^activeworkingsummit(.*)$ http://activeworking.com/summit/2015
+
