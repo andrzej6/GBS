@@ -1,0 +1,101 @@
+[12-Jun-2017 18:29:43 UTC] PHP Parse error:  syntax error, unexpected '$json' (T_VARIABLE), expecting '(' in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 41
+[12-Jun-2017 18:32:00 UTC] PHP Parse error:  syntax error, unexpected '$json' (T_VARIABLE), expecting '(' in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 41
+[12-Jun-2017 18:40:59 UTC] PHP Parse error:  syntax error, unexpected '$json' (T_VARIABLE), expecting '(' in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 41
+[12-Jun-2017 18:41:03 UTC] PHP Parse error:  syntax error, unexpected '$json' (T_VARIABLE), expecting '(' in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 41
+[12-Jun-2017 18:43:49 UTC] PHP Parse error:  syntax error, unexpected '$json' (T_VARIABLE), expecting '(' in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 41
+[12-Jun-2017 18:43:58 UTC] PHP Parse error:  syntax error, unexpected '$json' (T_VARIABLE), expecting '(' in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 41
+[12-Jun-2017 18:56:44 UTC] PHP Notice:  Trying to get property of non-object in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 41
+[12-Jun-2017 18:56:44 UTC] PHP Notice:  Trying to get property of non-object in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 41
+[12-Jun-2017 18:56:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 41
+[12-Jun-2017 18:58:17 UTC] PHP Notice:  Trying to get property of non-object in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 41
+[12-Jun-2017 18:58:17 UTC] PHP Notice:  Trying to get property of non-object in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 41
+[12-Jun-2017 18:58:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 41
+[12-Jun-2017 19:00:18 UTC] PHP Parse error:  syntax error, unexpected '$product' (T_VARIABLE) in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 43
+[12-Jun-2017 19:00:24 UTC] PHP Parse error:  syntax error, unexpected '$product' (T_VARIABLE) in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 43
+[12-Jun-2017 19:00:57 UTC] PHP Notice:  Trying to get property of non-object in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 41
+[12-Jun-2017 19:00:57 UTC] PHP Notice:  Trying to get property of non-object in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 41
+[12-Jun-2017 19:00:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 41
+[12-Jun-2017 19:05:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 41
+[12-Jun-2017 19:06:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 41
+[12-Jun-2017 19:06:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 41
+[12-Jun-2017 19:08:46 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 45
+[12-Jun-2017 19:10:28 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 47
+[12-Jun-2017 19:12:59 UTC] PHP Notice:  Undefined property: stdClass::$product in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 46
+[12-Jun-2017 19:12:59 UTC] PHP Notice:  Trying to get property of non-object in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 46
+[12-Jun-2017 19:12:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 46
+[12-Jun-2017 19:15:38 UTC] PHP Notice:  Trying to get property of non-object in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 48
+[12-Jun-2017 19:15:38 UTC] PHP Notice:  Trying to get property of non-object in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 48
+[12-Jun-2017 19:16:58 UTC] PHP Notice:  Undefined property: stdClass::$product in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 46
+[12-Jun-2017 19:16:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 46
+[12-Jun-2017 19:18:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 51
+[12-Jun-2017 19:18:58 UTC] PHP Notice:  Undefined variable: jon in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 52
+[12-Jun-2017 19:25:33 UTC] PHP Notice:  Trying to get property of non-object in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 46
+[12-Jun-2017 19:25:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 46
+[12-Jun-2017 19:26:21 UTC] PHP Notice:  Trying to get property of non-object in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 48
+[12-Jun-2017 19:28:31 UTC] PHP Notice:  Undefined index: product in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 46
+[12-Jun-2017 19:28:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 46
+[12-Jun-2017 19:32:23 UTC] PHP Notice:  Trying to get property of non-object in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 48
+[12-Jun-2017 19:32:23 UTC] PHP Notice:  Trying to get property of non-object in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 48
+[12-Jun-2017 19:32:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 48
+[12-Jun-2017 19:55:59 UTC] PHP Notice:  Undefined index: name in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 50
+[12-Jun-2017 19:55:59 UTC] PHP Notice:  Undefined index: language in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 50
+[12-Jun-2017 20:00:51 UTC] PHP Parse error:  syntax error, unexpected '&' in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 51
+[12-Jun-2017 20:00:58 UTC] PHP Parse error:  syntax error, unexpected '&' in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 51
+[12-Jun-2017 20:10:14 UTC] PHP Parse error:  syntax error, unexpected '$obj' (T_VARIABLE), expecting '(' in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 51
+[12-Jun-2017 20:10:49 UTC] PHP Parse error:  syntax error, unexpected '$obj' (T_VARIABLE), expecting '(' in /home/gbs1/public_html/responses/data/api/sample_service2.php on line 51
+[21-May-2018 19:15:27 UTC] PHP Notice:  Undefined variable: resources in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 96
+[21-May-2018 19:19:15 UTC] PHP Notice:  Undefined variable: resources in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 96
+[21-May-2018 20:14:30 UTC] PHP Notice:  Undefined index: id_default_group in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:14:30 UTC] PHP Notice:  Undefined index: id_lang in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:14:30 UTC] PHP Notice:  Undefined index: newsletter_date_add in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:14:30 UTC] PHP Notice:  Undefined index: ip_registration_newsletter in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:14:30 UTC] PHP Notice:  Undefined index: last_passwd_gen in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:14:30 UTC] PHP Notice:  Undefined index: secure_key in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:14:30 UTC] PHP Notice:  Undefined index: deleted in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:14:30 UTC] PHP Notice:  Undefined index: passwd in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:14:30 UTC] PHP Notice:  Undefined index: id_gender in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:14:30 UTC] PHP Notice:  Undefined index: birthday in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:14:30 UTC] PHP Notice:  Undefined index: newsletter in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:14:30 UTC] PHP Notice:  Undefined index: optin in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:14:30 UTC] PHP Notice:  Undefined index: website in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:14:30 UTC] PHP Notice:  Undefined index: company in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:14:30 UTC] PHP Notice:  Undefined index: siret in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:14:30 UTC] PHP Notice:  Undefined index: ape in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:14:30 UTC] PHP Notice:  Undefined index: outstanding_allow_amount in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:14:30 UTC] PHP Notice:  Undefined index: show_public_prices in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:14:30 UTC] PHP Notice:  Undefined index: id_risk in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:14:30 UTC] PHP Notice:  Undefined index: max_payment_days in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:14:30 UTC] PHP Notice:  Undefined index: active in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:14:30 UTC] PHP Notice:  Undefined index: note in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:14:30 UTC] PHP Notice:  Undefined index: is_guest in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:14:30 UTC] PHP Notice:  Undefined index: id_shop in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:14:30 UTC] PHP Notice:  Undefined index: id_shop_group in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:14:30 UTC] PHP Notice:  Undefined index: date_upd in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:14:30 UTC] PHP Notice:  Undefined index: associations in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:15:31 UTC] PHP Notice:  Undefined index: id_default_group in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:15:31 UTC] PHP Notice:  Undefined index: id_lang in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:15:31 UTC] PHP Notice:  Undefined index: newsletter_date_add in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:15:31 UTC] PHP Notice:  Undefined index: ip_registration_newsletter in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:15:31 UTC] PHP Notice:  Undefined index: last_passwd_gen in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:15:31 UTC] PHP Notice:  Undefined index: secure_key in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:15:31 UTC] PHP Notice:  Undefined index: deleted in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:15:31 UTC] PHP Notice:  Undefined index: passwd in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:15:31 UTC] PHP Notice:  Undefined index: id_gender in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:15:31 UTC] PHP Notice:  Undefined index: birthday in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:15:31 UTC] PHP Notice:  Undefined index: newsletter in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:15:31 UTC] PHP Notice:  Undefined index: optin in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:15:31 UTC] PHP Notice:  Undefined index: website in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:15:31 UTC] PHP Notice:  Undefined index: company in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:15:31 UTC] PHP Notice:  Undefined index: siret in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:15:31 UTC] PHP Notice:  Undefined index: ape in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:15:31 UTC] PHP Notice:  Undefined index: outstanding_allow_amount in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:15:31 UTC] PHP Notice:  Undefined index: show_public_prices in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:15:31 UTC] PHP Notice:  Undefined index: id_risk in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:15:31 UTC] PHP Notice:  Undefined index: max_payment_days in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:15:31 UTC] PHP Notice:  Undefined index: active in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:15:31 UTC] PHP Notice:  Undefined index: note in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:15:31 UTC] PHP Notice:  Undefined index: is_guest in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:15:31 UTC] PHP Notice:  Undefined index: id_shop in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:15:31 UTC] PHP Notice:  Undefined index: id_shop_group in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:15:31 UTC] PHP Notice:  Undefined index: date_upd in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56
+[21-May-2018 20:15:31 UTC] PHP Notice:  Undefined index: associations in /home/gbs1/public_html/responses/data/api/sample_service3.php on line 56

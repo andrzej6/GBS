@@ -1,0 +1,51 @@
+
+table, td, th
+{
+border:1px solid green;
+border-collapse:collapse;
+text-align:center;
+}
+th
+{
+background-color:lightgreen;
+color:white;
+}
+td {
+    font-size:80%;
+    height:50px;
+}
+
+div {
+    max-height:100px;
+}
+
+
+
+.tpay, .tadd, .taddress {
+display:none;
+}
+
+
+
+
+a#aw-addressinfo {
+    color:red
+}
+
+th.taddress {
+    background-color:red;
+}
+
+
+a#aw-addinfo {
+    color:brown;
+}
+
+th.tadd {
+    background-color:brown;
+}
+
+
+th.tpay {
+    background-color:blue;
+}

@@ -1,0 +1,27 @@
+
+table, td, th
+{
+border:1px solid green;
+border-collapse:collapse;
+}
+th
+{
+background-color:lightgreen;
+color:white;
+}
+td {
+    font-size:80%;
+}
+
+div {
+    max-height:100px;
+}
+
+.question {
+    overflow-y:auto;
+    height:150px;
+}
+
+.email {
+    overflow-x:auto;
+}

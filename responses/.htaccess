@@ -1,0 +1,4 @@
+AuthName "responses"
+AuthUserFile "/home/gbs1/.htpasswds/public_html/responses/passwd"
+AuthType Basic
+require valid-user

@@ -1,0 +1,232 @@
+[13-Sep-2017 21:09:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/gbs1/public_html/prefooter.php:76
+Stack trace:
+#0 /home/gbs1/public_html/prefooter.php(76): PDO->__construct('mysql:host=loca...', 'gbs1', 'Gbs4221A')
+#1 /home/gbs1/public_html/index.php(969): include('/home/gbs1/publ...')
+#2 {main}
+  thrown in /home/gbs1/public_html/prefooter.php on line 76
+[18-Sep-2017 15:43:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/gbs1/public_html/prefooter.php:76
+Stack trace:
+#0 /home/gbs1/public_html/prefooter.php(76): PDO->__construct('mysql:host=loca...', 'gbs1', 'Gbs4221A')
+#1 /home/gbs1/public_html/index.php(969): include('/home/gbs1/publ...')
+#2 {main}
+  thrown in /home/gbs1/public_html/prefooter.php on line 76
+[18-Sep-2017 15:43:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/gbs1/public_html/prefooter.php:76
+Stack trace:
+#0 /home/gbs1/public_html/prefooter.php(76): PDO->__construct('mysql:host=loca...', 'gbs1', 'Gbs4221A')
+#1 /home/gbs1/public_html/index.php(969): include('/home/gbs1/publ...')
+#2 {main}
+  thrown in /home/gbs1/public_html/prefooter.php on line 76
+[24-Sep-2017 12:10:14 UTC] PHP Notice:  Undefined variable: mess in /home/gbs1/public_html/validate.php on line 293
+[24-Sep-2017 13:10:14 Europe/London] PHP Notice:  Undefined variable: mess in /home/gbs1/public_html/storedata.php on line 40
+[24-Sep-2017 12:18:31 UTC] PHP Notice:  Undefined variable: mess in /home/gbs1/public_html/validate.php on line 293
+[24-Sep-2017 13:18:31 Europe/London] PHP Notice:  Undefined variable: mess in /home/gbs1/public_html/storedata.php on line 40
+[27-Sep-2017 21:55:25 UTC] PHP Notice:  Undefined index: regtitle in /home/gbs1/public_html/validate.php on line 6
+[27-Sep-2017 21:55:25 UTC] PHP Notice:  Undefined index: behalf in /home/gbs1/public_html/validate.php on line 58
+[28-Sep-2017 18:18:32 Europe/London] PHP Notice:  Undefined index: option_selection1 in /home/gbs1/public_html/ipn.php on line 237
+[16-Oct-2017 14:48:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/gbs1/public_html/prefooter.php:76
+Stack trace:
+#0 /home/gbs1/public_html/prefooter.php(76): PDO->__construct('mysql:host=loca...', 'gbs1', 'Gbs4221A')
+#1 /home/gbs1/public_html/index.php(984): include('/home/gbs1/publ...')
+#2 {main}
+  thrown in /home/gbs1/public_html/prefooter.php on line 76
+[18-Oct-2017 09:44:31 UTC] PHP Notice:  Undefined index: regtitle in /home/gbs1/public_html/validate.php on line 6
+[18-Oct-2017 09:44:31 UTC] PHP Notice:  Undefined index: behalf in /home/gbs1/public_html/validate.php on line 58
+[25-Oct-2017 16:03:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/gbs1/public_html/prefooter.php:76
+Stack trace:
+#0 /home/gbs1/public_html/prefooter.php(76): PDO->__construct('mysql:host=loca...', 'gbs1', 'Gbs4221A')
+#1 /home/gbs1/public_html/index.php(984): include('/home/gbs1/publ...')
+#2 {main}
+  thrown in /home/gbs1/public_html/prefooter.php on line 76
+[05-Nov-2017 07:30:15 UTC] PHP Notice:  Undefined index: regtitle in /home/gbs1/public_html/validate.php on line 6
+[05-Nov-2017 07:30:15 UTC] PHP Notice:  Undefined index: behalf in /home/gbs1/public_html/validate.php on line 58
+[06-Nov-2017 16:44:08 UTC] PHP Notice:  Undefined variable: mess in /home/gbs1/public_html/validate.php on line 296
+[06-Nov-2017 16:44:08 Europe/London] PHP Notice:  Undefined variable: mess in /home/gbs1/public_html/storedata.php on line 40
+[10-Nov-2017 06:34:21 UTC] PHP Notice:  Undefined index: regtitle in /home/gbs1/public_html/validate.php on line 6
+[10-Nov-2017 06:34:21 UTC] PHP Notice:  Undefined index: behalf in /home/gbs1/public_html/validate.php on line 58
+[15-Nov-2017 07:18:45 UTC] PHP Notice:  Undefined index: regtitle in /home/gbs1/public_html/validate.php on line 6
+[15-Nov-2017 07:18:45 UTC] PHP Notice:  Undefined index: behalf in /home/gbs1/public_html/validate.php on line 58
+[21-Nov-2017 05:08:07 UTC] PHP Notice:  Undefined index: regtitle in /home/gbs1/public_html/validate.php on line 6
+[21-Nov-2017 05:08:07 UTC] PHP Notice:  Undefined index: behalf in /home/gbs1/public_html/validate.php on line 58
+[22-Nov-2017 12:46:19 UTC] PHP Notice:  Undefined variable: mess in /home/gbs1/public_html/validate.php on line 296
+[22-Nov-2017 12:46:20 Europe/London] PHP Notice:  Undefined variable: mess in /home/gbs1/public_html/storedata.php on line 40
+[27-Nov-2017 03:07:09 UTC] PHP Fatal error:  Call to undefined function phpinclude() in /home/gbs1/public_html/solutions.php on line 1
+[27-Nov-2017 03:07:12 UTC] PHP Fatal error:  Call to undefined function phpinclude() in /home/gbs1/public_html/solutions.php on line 1
+[27-Nov-2017 03:08:00 UTC] PHP Fatal error:  Call to undefined function phpinclude() in /home/gbs1/public_html/solutions.php on line 1
+[27-Nov-2017 03:08:02 UTC] PHP Fatal error:  Call to undefined function phpinclude() in /home/gbs1/public_html/solutions.php on line 1
+[27-Nov-2017 03:08:08 UTC] PHP Fatal error:  Call to undefined function phpinclude() in /home/gbs1/public_html/index.php on line 1
+[27-Nov-2017 03:09:12 UTC] PHP Fatal error:  Call to undefined function phpinclude() in /home/gbs1/public_html/index.php on line 1
+[27-Nov-2017 03:10:02 UTC] PHP Fatal error:  Call to undefined function phpinclude() in /home/gbs1/public_html/index.php on line 1
+[27-Nov-2017 03:10:12 UTC] PHP Fatal error:  Call to undefined function phpinclude() in /home/gbs1/public_html/index.php on line 1
+[27-Nov-2017 03:10:14 UTC] PHP Fatal error:  Call to undefined function phpinclude() in /home/gbs1/public_html/index.php on line 1
+[27-Nov-2017 03:10:16 UTC] PHP Fatal error:  Call to undefined function phpinclude() in /home/gbs1/public_html/index.php on line 1
+[27-Nov-2017 03:10:17 UTC] PHP Fatal error:  Call to undefined function phpinclude() in /home/gbs1/public_html/index.php on line 1
+[27-Nov-2017 03:10:18 UTC] PHP Fatal error:  Call to undefined function phpinclude() in /home/gbs1/public_html/index.php on line 1
+[27-Nov-2017 03:10:20 UTC] PHP Fatal error:  Call to undefined function phpinclude() in /home/gbs1/public_html/index.php on line 1
+[27-Nov-2017 03:11:41 UTC] PHP Fatal error:  Call to undefined function phpinclude() in /home/gbs1/public_html/index.php on line 1
+[27-Nov-2017 03:11:42 UTC] PHP Fatal error:  Call to undefined function phpinclude() in /home/gbs1/public_html/index.php on line 1
+[27-Nov-2017 03:12:54 UTC] PHP Fatal error:  Call to undefined function phpinclude() in /home/gbs1/public_html/solutions.php on line 1
+[27-Nov-2017 03:19:35 UTC] PHP Fatal error:  Call to undefined function phpinclude() in /home/gbs1/public_html/solutions.php on line 1
+[27-Nov-2017 03:19:36 UTC] PHP Fatal error:  Call to undefined function phpinclude() in /home/gbs1/public_html/solutions.php on line 1
+[27-Nov-2017 03:19:38 UTC] PHP Fatal error:  Call to undefined function phpinclude() in /home/gbs1/public_html/index.php on line 1
+[27-Nov-2017 03:19:39 UTC] PHP Fatal error:  Call to undefined function phpinclude() in /home/gbs1/public_html/index.php on line 1
+[27-Nov-2017 03:21:20 UTC] PHP Fatal error:  Call to undefined function phpinclude() in /home/gbs1/public_html/index.php on line 1
+[30-Nov-2017 09:25:44 Europe/London] PHP Notice:  Undefined index: option_selection1 in /home/gbs1/public_html/ipn.php on line 237
+[01-Dec-2017 04:13:18 UTC] PHP Notice:  Undefined index: regtitle in /home/gbs1/public_html/validate.php on line 6
+[01-Dec-2017 04:13:18 UTC] PHP Notice:  Undefined index: behalf in /home/gbs1/public_html/validate.php on line 58
+[22-Dec-2017 13:32:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/gbs1/public_html/prefooter.php:76
+Stack trace:
+#0 /home/gbs1/public_html/prefooter.php(76): PDO->__construct('mysql:host=loca...', 'gbs1', 'Gbs4221A')
+#1 /home/gbs1/public_html/index.php(993): include('/home/gbs1/publ...')
+#2 {main}
+  thrown in /home/gbs1/public_html/prefooter.php on line 76
+[10-Jan-2018 16:53:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/gbs1/public_html/prefooter.php:76
+Stack trace:
+#0 /home/gbs1/public_html/prefooter.php(76): PDO->__construct('mysql:host=loca...', 'gbs1', 'Gbs4221A')
+#1 /home/gbs1/public_html/index.php(997): include('/home/gbs1/publ...')
+#2 {main}
+  thrown in /home/gbs1/public_html/prefooter.php on line 76
+[10-Jan-2018 16:53:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/gbs1/public_html/prefooter.php:76
+Stack trace:
+#0 /home/gbs1/public_html/prefooter.php(76): PDO->__construct('mysql:host=loca...', 'gbs1', 'Gbs4221A')
+#1 /home/gbs1/public_html/index.php(997): include('/home/gbs1/publ...')
+#2 {main}
+  thrown in /home/gbs1/public_html/prefooter.php on line 76
+[20-Jan-2018 00:04:00 UTC] PHP Notice:  Undefined index: email1 in /home/gbs1/public_html/store.php on line 6
+[20-Jan-2018 11:26:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/gbs1/public_html/prefooter.php:76
+Stack trace:
+#0 /home/gbs1/public_html/prefooter.php(76): PDO->__construct('mysql:host=loca...', 'gbs1', 'Gbs4221A')
+#1 /home/gbs1/public_html/index.php(1016): include('/home/gbs1/publ...')
+#2 {main}
+  thrown in /home/gbs1/public_html/prefooter.php on line 76
+[20-Jan-2018 11:26:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/gbs1/public_html/prefooter.php:76
+Stack trace:
+#0 /home/gbs1/public_html/prefooter.php(76): PDO->__construct('mysql:host=loca...', 'gbs1', 'Gbs4221A')
+#1 /home/gbs1/public_html/index.php(1016): include('/home/gbs1/publ...')
+#2 {main}
+  thrown in /home/gbs1/public_html/prefooter.php on line 76
+[20-Jan-2018 11:26:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/gbs1/public_html/prefooter.php:76
+Stack trace:
+#0 /home/gbs1/public_html/prefooter.php(76): PDO->__construct('mysql:host=loca...', 'gbs1', 'Gbs4221A')
+#1 /home/gbs1/public_html/index.php(1016): include('/home/gbs1/publ...')
+#2 {main}
+  thrown in /home/gbs1/public_html/prefooter.php on line 76
+[29-Jan-2018 05:11:08 UTC] PHP Notice:  Undefined index: regtitle in /home/gbs1/public_html/validate.php on line 6
+[29-Jan-2018 05:11:08 UTC] PHP Notice:  Undefined index: workphone in /home/gbs1/public_html/validate.php on line 30
+[29-Jan-2018 05:11:08 UTC] PHP Notice:  Undefined index: mobilephone in /home/gbs1/public_html/validate.php on line 36
+[29-Jan-2018 05:11:08 UTC] PHP Notice:  Undefined index: address1 in /home/gbs1/public_html/validate.php on line 40
+[29-Jan-2018 05:11:08 UTC] PHP Notice:  Undefined index: address2 in /home/gbs1/public_html/validate.php on line 44
+[29-Jan-2018 05:11:08 UTC] PHP Notice:  Undefined index: postcode in /home/gbs1/public_html/validate.php on line 54
+[29-Jan-2018 05:11:08 UTC] PHP Notice:  Undefined index: jpos in /home/gbs1/public_html/validate.php on line 55
+[29-Jan-2018 05:11:08 UTC] PHP Notice:  Undefined index: dep in /home/gbs1/public_html/validate.php on line 56
+[29-Jan-2018 05:11:08 UTC] PHP Notice:  Undefined index: behalf in /home/gbs1/public_html/validate.php on line 58
+[04-Feb-2018 08:45:23 UTC] PHP Notice:  Undefined index: regtitle in /home/gbs1/public_html/validate.php on line 6
+[04-Feb-2018 08:45:23 UTC] PHP Notice:  Undefined index: behalf in /home/gbs1/public_html/validate.php on line 58
+[06-Feb-2018 14:16:19 UTC] PHP Notice:  Undefined index: email1 in /home/gbs1/public_html/store.php on line 6
+[11-Feb-2018 07:15:16 UTC] PHP Notice:  Undefined index: regtitle in /home/gbs1/public_html/validate.php on line 6
+[11-Feb-2018 07:15:16 UTC] PHP Notice:  Undefined index: workphone in /home/gbs1/public_html/validate.php on line 30
+[11-Feb-2018 07:15:16 UTC] PHP Notice:  Undefined index: mobilephone in /home/gbs1/public_html/validate.php on line 36
+[11-Feb-2018 07:15:16 UTC] PHP Notice:  Undefined index: address1 in /home/gbs1/public_html/validate.php on line 40
+[11-Feb-2018 07:15:16 UTC] PHP Notice:  Undefined index: address2 in /home/gbs1/public_html/validate.php on line 44
+[11-Feb-2018 07:15:16 UTC] PHP Notice:  Undefined index: postcode in /home/gbs1/public_html/validate.php on line 54
+[11-Feb-2018 07:15:16 UTC] PHP Notice:  Undefined index: jpos in /home/gbs1/public_html/validate.php on line 55
+[11-Feb-2018 07:15:16 UTC] PHP Notice:  Undefined index: dep in /home/gbs1/public_html/validate.php on line 56
+[11-Feb-2018 07:15:16 UTC] PHP Notice:  Undefined index: behalf in /home/gbs1/public_html/validate.php on line 58
+[13-Feb-2018 14:43:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/gbs1/public_html/prefooter.php:76
+Stack trace:
+#0 /home/gbs1/public_html/prefooter.php(76): PDO->__construct('mysql:host=loca...', 'gbs1', 'Gbs4221A')
+#1 /home/gbs1/public_html/about-us.php(376): include('/home/gbs1/publ...')
+#2 {main}
+  thrown in /home/gbs1/public_html/prefooter.php on line 76
+[13-Feb-2018 14:43:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/gbs1/public_html/prefooter.php:76
+Stack trace:
+#0 /home/gbs1/public_html/prefooter.php(76): PDO->__construct('mysql:host=loca...', 'gbs1', 'Gbs4221A')
+#1 /home/gbs1/public_html/partners.php(493): include('/home/gbs1/publ...')
+#2 {main}
+  thrown in /home/gbs1/public_html/prefooter.php on line 76
+[18-Feb-2018 01:48:38 UTC] PHP Notice:  Undefined index: regtitle in /home/gbs1/public_html/validate.php on line 6
+[18-Feb-2018 01:48:38 UTC] PHP Notice:  Undefined index: workphone in /home/gbs1/public_html/validate.php on line 30
+[18-Feb-2018 01:48:38 UTC] PHP Notice:  Undefined index: mobilephone in /home/gbs1/public_html/validate.php on line 36
+[18-Feb-2018 01:48:38 UTC] PHP Notice:  Undefined index: address1 in /home/gbs1/public_html/validate.php on line 40
+[18-Feb-2018 01:48:38 UTC] PHP Notice:  Undefined index: address2 in /home/gbs1/public_html/validate.php on line 44
+[18-Feb-2018 01:48:38 UTC] PHP Notice:  Undefined index: postcode in /home/gbs1/public_html/validate.php on line 54
+[18-Feb-2018 01:48:38 UTC] PHP Notice:  Undefined index: jpos in /home/gbs1/public_html/validate.php on line 55
+[18-Feb-2018 01:48:38 UTC] PHP Notice:  Undefined index: dep in /home/gbs1/public_html/validate.php on line 56
+[18-Feb-2018 01:48:38 UTC] PHP Notice:  Undefined index: behalf in /home/gbs1/public_html/validate.php on line 58
+[21-Feb-2018 13:51:33 UTC] PHP Notice:  Undefined variable: mess in /home/gbs1/public_html/validate.php on line 296
+[21-Feb-2018 13:51:33 Europe/London] PHP Notice:  Undefined variable: mess in /home/gbs1/public_html/storedata.php on line 40
+[21-Feb-2018 13:51:43 UTC] PHP Notice:  Undefined variable: mess in /home/gbs1/public_html/validate.php on line 296
+[21-Feb-2018 13:51:43 Europe/London] PHP Notice:  Undefined variable: mess in /home/gbs1/public_html/storedata.php on line 40
+[21-Feb-2018 14:01:28 UTC] PHP Notice:  Undefined variable: mess in /home/gbs1/public_html/validate.php on line 296
+[21-Feb-2018 14:01:28 Europe/London] PHP Notice:  Undefined variable: mess in /home/gbs1/public_html/storedata.php on line 40
+[01-Mar-2018 23:13:03 UTC] PHP Notice:  Undefined index: regtitle in /home/gbs1/public_html/validate.php on line 6
+[01-Mar-2018 23:13:03 UTC] PHP Notice:  Undefined index: workphone in /home/gbs1/public_html/validate.php on line 30
+[01-Mar-2018 23:13:03 UTC] PHP Notice:  Undefined index: mobilephone in /home/gbs1/public_html/validate.php on line 36
+[01-Mar-2018 23:13:03 UTC] PHP Notice:  Undefined index: address1 in /home/gbs1/public_html/validate.php on line 40
+[01-Mar-2018 23:13:03 UTC] PHP Notice:  Undefined index: address2 in /home/gbs1/public_html/validate.php on line 44
+[01-Mar-2018 23:13:03 UTC] PHP Notice:  Undefined index: postcode in /home/gbs1/public_html/validate.php on line 54
+[01-Mar-2018 23:13:03 UTC] PHP Notice:  Undefined index: jpos in /home/gbs1/public_html/validate.php on line 55
+[01-Mar-2018 23:13:03 UTC] PHP Notice:  Undefined index: dep in /home/gbs1/public_html/validate.php on line 56
+[01-Mar-2018 23:13:03 UTC] PHP Notice:  Undefined index: behalf in /home/gbs1/public_html/validate.php on line 58
+[02-Mar-2018 18:41:11 UTC] PHP Notice:  Undefined index: email1 in /home/gbs1/public_html/store.php on line 6
+[15-Mar-2018 08:56:54 UTC] PHP Notice:  Undefined variable: mess in /home/gbs1/public_html/validate.php on line 296
+[15-Mar-2018 08:56:54 Europe/London] PHP Notice:  Undefined variable: mess in /home/gbs1/public_html/storedata.php on line 40
+[15-Mar-2018 18:19:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/gbs1/public_html/prefooter.php:76
+Stack trace:
+#0 /home/gbs1/public_html/prefooter.php(76): PDO->__construct('mysql:host=loca...', 'gbs1', 'Gbs4221A')
+#1 /home/gbs1/public_html/index.php(1038): include('/home/gbs1/publ...')
+#2 {main}
+  thrown in /home/gbs1/public_html/prefooter.php on line 76
+[15-Mar-2018 18:19:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/gbs1/public_html/prefooter.php:76
+Stack trace:
+#0 /home/gbs1/public_html/prefooter.php(76): PDO->__construct('mysql:host=loca...', 'gbs1', 'Gbs4221A')
+#1 /home/gbs1/public_html/index.php(1038): include('/home/gbs1/publ...')
+#2 {main}
+  thrown in /home/gbs1/public_html/prefooter.php on line 76
+[16-Mar-2018 00:37:53 UTC] PHP Notice:  Undefined index: regtitle in /home/gbs1/public_html/validate.php on line 6
+[16-Mar-2018 00:37:53 UTC] PHP Notice:  Undefined index: behalf in /home/gbs1/public_html/validate.php on line 58
+[28-Mar-2018 05:38:47 UTC] PHP Notice:  Undefined index: regtitle in /home/gbs1/public_html/validate.php on line 6
+[28-Mar-2018 05:38:47 UTC] PHP Notice:  Undefined index: behalf in /home/gbs1/public_html/validate.php on line 58
+[05-Apr-2018 08:54:11 UTC] PHP Notice:  Undefined index: regtitle in /home/gbs1/public_html/validate.php on line 6
+[05-Apr-2018 08:54:11 UTC] PHP Notice:  Undefined index: behalf in /home/gbs1/public_html/validate.php on line 58
+[11-Apr-2018 11:45:51 UTC] PHP Notice:  Undefined index: regtitle in /home/gbs1/public_html/validate.php on line 6
+[11-Apr-2018 11:45:51 UTC] PHP Notice:  Undefined index: behalf in /home/gbs1/public_html/validate.php on line 58
+[12-Apr-2018 15:47:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/gbs1/public_html/prefooter.php:76
+Stack trace:
+#0 /home/gbs1/public_html/prefooter.php(76): PDO->__construct('mysql:host=loca...', 'gbs1', 'Gbs4221A')
+#1 /home/gbs1/public_html/solutions.php(2042): include('/home/gbs1/publ...')
+#2 {main}
+  thrown in /home/gbs1/public_html/prefooter.php on line 76
+[23-Apr-2018 11:19:58 UTC] PHP Notice:  Undefined index: regtitle in /home/gbs1/public_html/validate.php on line 6
+[23-Apr-2018 11:19:58 UTC] PHP Notice:  Undefined index: behalf in /home/gbs1/public_html/validate.php on line 58
+[30-Apr-2018 17:32:46 Europe/London] PHP Notice:  Undefined index: option_selection1 in /home/gbs1/public_html/ipn.php on line 237
+[02-May-2018 09:48:31 UTC] PHP Notice:  Undefined index: email1 in /home/gbs1/public_html/store.php on line 6
+[06-May-2018 05:39:55 UTC] PHP Notice:  Undefined index: email1 in /home/gbs1/public_html/store.php on line 6
+[16-May-2018 14:55:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/gbs1/public_html/prefooter.php:76
+Stack trace:
+#0 /home/gbs1/public_html/prefooter.php(76): PDO->__construct('mysql:host=loca...', 'gbs1', 'Gbs4221A')
+#1 /home/gbs1/public_html/official-supporters.php(442): include('/home/gbs1/publ...')
+#2 {main}
+  thrown in /home/gbs1/public_html/prefooter.php on line 76
+[17-May-2018 03:16:51 UTC] PHP Notice:  Undefined index: regtitle in /home/gbs1/public_html/validate.php on line 6
+[17-May-2018 03:16:51 UTC] PHP Notice:  Undefined index: behalf in /home/gbs1/public_html/validate.php on line 58
+[23-May-2018 19:52:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/gbs1/public_html/prefooter.php:76
+Stack trace:
+#0 /home/gbs1/public_html/prefooter.php(76): PDO->__construct('mysql:host=loca...', 'gbs1', 'Gbs4221A')
+#1 /home/gbs1/public_html/sitting-problem.php(390): include('/home/gbs1/publ...')
+#2 {main}
+  thrown in /home/gbs1/public_html/prefooter.php on line 76
+[23-May-2018 19:52:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/gbs1/public_html/prefooter.php:76
+Stack trace:
+#0 /home/gbs1/public_html/prefooter.php(76): PDO->__construct('mysql:host=loca...', 'gbs1', 'Gbs4221A')
+#1 /home/gbs1/public_html/register.php(245): include('/home/gbs1/publ...')
+#2 {main}
+  thrown in /home/gbs1/public_html/prefooter.php on line 76
+[23-May-2018 19:52:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/gbs1/public_html/prefooter.php:76
+Stack trace:
+#0 /home/gbs1/public_html/prefooter.php(76): PDO->__construct('mysql:host=loca...', 'gbs1', 'Gbs4221A')
+#1 /home/gbs1/public_html/health-risks.php(1972): include('/home/gbs1/publ...')
+#2 {main}
+  thrown in /home/gbs1/public_html/prefooter.php on line 76
+[28-May-2018 08:41:35 UTC] PHP Notice:  Undefined index: regtitle in /home/gbs1/public_html/validate.php on line 6
+[28-May-2018 08:41:35 UTC] PHP Notice:  Undefined index: behalf in /home/gbs1/public_html/validate.php on line 58
+[31-May-2018 18:03:01 Europe/London] PHP Notice:  Undefined index: option_selection1 in /home/gbs1/public_html/ipn.php on line 237

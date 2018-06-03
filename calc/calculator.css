@@ -1,0 +1,224 @@
+#sitcalc {
+  font-family:'Oxygen',sans-serif;
+  background: #ececec;
+  padding:2%;
+  margin-bottom:2%;
+  text-align:justify;
+}
+
+
+#sitcalc ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+
+#sitcalc a {
+	text-decoration:none;
+}
+
+
+#sitcalc h5 {
+	font-size:20px;
+	margin:0px 0px 23px 0px;
+	font-weight:normal;
+	color:#A21616;	
+}
+
+
+#sitcalc h5.specialmargin {
+    margin-top:-30px;
+}
+
+
+
+#sitcalc label, #sitcalc input, #sitcalc select {
+	font-size:14px;
+	font-weight:normal;
+	line-height:20px;
+}
+
+
+
+#sitcalc label  {
+	display:block;
+	margin:10px 0 3px 0px;	
+}
+
+
+
+#sitcalc select {
+	height:30px;
+}
+
+
+
+
+#sitcalc .redbg {
+	  background: #a21616;
+	  color: white;
+	  font-size: 22px;
+	  letter-spacing: -1px;
+	  line-height: 34px;
+	  padding: 0 10px;
+	  width: 170px;
+	  font-weight: bold;
+	  float:left;
+}
+
+
+
+
+#calculate , #clearselection {
+	margin:3% 2% 0 0%;
+}
+
+
+
+#calculate{
+	float:right;	
+}
+
+
+
+#clearselection
+{
+	float: left;	
+}
+
+
+
+.shortcode_button.btn_type10 {
+   color: white;
+   background: #2e7cff;
+}
+
+
+.shortcode_button.btn_small {
+  line-height: 34px;
+  font-size: 13px;
+  padding: 0 18px;
+}
+
+
+
+.shortcode_button:hover {
+  text-decoration: none;
+  color: white;
+  background: #88c800;
+}
+
+
+
+
+
+#sitcalc .input-select 
+{
+	width:23%;
+}
+
+
+
+
+
+.vslider {
+	margin-left: 3%;
+	background-color: #88c800;
+	width: 70%;
+}
+
+
+
+
+
+
+
+input[type="range"]{
+    -webkit-appearance: none;
+    -moz-apperance: none;
+    border-radius: 6px;
+    height: 6px;  
+
+}
+
+
+
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    background-color: lightgrey;
+    border: 1px solid #3d3d3d;
+    height: 15px;
+    width: 15px;
+}
+
+
+
+
+
+#resultcalc {
+	padding-top: 6%;
+	font-size: 13px;
+	line-height: 18px;
+	display: none;
+}
+
+
+
+
+
+.getbslogo {
+	float:right;
+	
+	
+}
+
+.getbslogo img {
+	width:100px;
+	
+}
+
+
+
+
+.blue-font {
+ color:#2e7cff;
+ font-size:14px;
+ margin-top:15px;
+ }
+ 
+ 
+#sitcalc  .blue-font a {
+ color: #2e7cff;
+ text-decoration:underline;}
+ 
+
+
+
+.clear {
+	clear:both;
+}
+
+
+
+
+
+@media only screen and (min-width: 760px) { 
+
+	
+	.halfright1 {
+	width: 49%;
+}
+
+
+
+
+
+#sitcalc
+{
+	min-height:420px;
+}
+
+
+
+}

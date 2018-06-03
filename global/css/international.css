@@ -1,0 +1,38 @@
+/* some styles here */
+
+
+
+#international {
+    position:absolute;
+	right:0px;
+	top:10px;
+	display:block;
+}
+
+#international img {
+    height:30px;
+    margin-left:5px;
+}
+
+
+
+.international-link:hover > img  {
+    transform:scale(1.2);
+}
+
+
+
+
+header .header_wrapper {
+	min-height:50px;
+}
+
+
+#leftsitcalc {
+	text-align:left;
+}
+
+
+#leftsitcalc h4 {
+	letter-spacing:-1.2px;
+}

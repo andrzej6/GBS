@@ -1,0 +1,132 @@
+/* little nudge reg */
+
+.nudge-calc-text.bigger, .nudge-price {
+	font-size:22px;
+}
+
+table.nudge-table2 .col2b, .col2c {
+    width:1px;
+    text-align:right
+}
+
+table.nudge-table2 .col2a, .col2d {
+ width:10%;	
+}
+
+table.nudge-table2 .col3 {
+	width:30%;
+}
+
+
+
+.required_notification.orange {
+	color:#FF6600;
+}
+
+
+
+#mce-success-response {
+	display:inline-block;
+	max-width:220px;
+	margin:5px;
+	color:#FF6600!important;
+}
+
+
+#mce-error-response {
+	display:inline-block;
+	max-width:220px;
+	margin:5px;
+	color:red!important;
+}
+
+
+
+#mc_embed_signup div.mce_inline_error {
+	margin-top:-10px!important;
+}
+
+
+
+
+#mc_embed_signup input.mce_inline_error {
+	border: 1px solid #cccccc!important;
+}
+
+#mc-embedded-subscribe {
+  color:white;
+  background-color:#FF6600;
+  padding:7px;	
+  border: 1px solid #FF6600;
+}
+
+
+
+#mc_embed_signup div.mce_inline_error {
+  color:#FF6600!important;
+  background-color:white!important;
+  padding:10px;
+}
+
+#nudge_center {
+    float:left;
+    margin-left:25%;
+    text-align:center;
+    min-width:40%;
+    padding:20px;
+}
+
+
+#nudge-left, #nudge-right {
+    width:25%;
+}
+
+
+
+.nudge-licence {
+    margin-top:15px;
+    font-weight:bold;
+    margin-bottom:5px;
+}
+
+
+.nudge-follow {
+    top:100px;
+}
+
+#nudge-left {
+    float:left;
+}
+
+
+#nudge-right {
+    float:left;
+}
+
+
+#nudge-calc ul {
+	text-align:center;
+}
+
+#nudge-cost {
+	font-size:22px;
+	color:#FF6600;
+	margin-bottom:15px;
+}
+
+a#show-nudgetable {
+	text-decoration:underline;
+}
+
+
+
+@media only screen and (min-width: 860px) { 
+	#nudge-left, #nudge-right {
+    width:25%;
+    display:inline-block;
+    position:fixed;
+    top:200px;
+
+}
+	
+	}

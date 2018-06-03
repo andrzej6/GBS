@@ -1,0 +1,11 @@
+<?php 
+
+$container = $_GET['container'];
+      if($container=='calculator')
+      {
+          //header(\'Content-Type: application/json\');
+         echo $_GET['callback'] . '(' . 
+         "{'content' : '<div id=\'sitcalc\' ><div class=\'calc-container\'><div class=\'calc-powered\'>Powered by &nbsp;<a href=\'http://getamericastanding.org/\'><img src=\'http://getbritainstanding.org/widget/gams-powered.png\' /></a></div><div class=\'calc-icon\'><a href=\'http://getamericastanding.org/\'><img src=\'http://getbritainstanding.org/widget/calc.png\'></a></div><div class=\'calc-icon-right\'>Estimate the time you spend sitting daily</div><div class=\'clear\'><!-- ClearFix --></div></div><form class=\'sitting_form\' action=\'#\' method=\'post\' name=\'sitting_form\'><ul><li><label for=\'eatinput\'>  Eating (combination of  breakfast, lunch and dinner time)</label><select name=\'input-select-eating\' class=\'input-select\' id=\'eatinput\'></select><input type=\'range\' id=\'eatingslider\' class=\'vslider\' min=\'0.00\' max=\'8\' step=\'0.25\' value=\'0\' ></li><li><label for=\'comuttinput\'>Commuting</label><select name=\'input-select-comutting\' class=\'input-select\' id=\'comuttinput\'></select><input type=\'range\' id=\'comuttingslider\' class=\'vslider\' min=\'0.00\' max=\'8\' step=\'0.25\' value=\'0\'></li><li><label for=\'workinput\'>Working (both at the office or home)</label><select name=\'input-select-working\' class=\'input-select\' id=\'workinput\'></select><input type=\'range\' id=\'workingslider\' class=\'vslider\' min=\'0.00\' max=\'8\' step=\'0.25\' value=\'0\'></li><li><label for=\'relaxinput\'>Relaxing (including watching TV, online, gaming etc.)</label><select name=\'input-select-relaxing\' class=\'input-select\' id=\'relaxinput\'></select><input type=\'range\' id=\'relaxingslider\' class=\'vslider\' min=\'0.00\' max=\'8\' step=\'0.25\' value=\'0\'></li><li><a href=\'\' id=\'calculate\' class=\'shortcode_button btn_small btn_type10\'>CALCULATE</a><a href=\'\' id=\'clearselection\' class=\'shortcode_button btn_small btn_type10\'>Start again</a><div style=\'clear: both;\'></div><div id=\'resultcalc\'></div></li></ul></form></div>'}" 
+         . ')';
+      }
+

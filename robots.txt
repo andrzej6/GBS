@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /img
+
+Sitemap: http://www.getbritainstanding.org/sitemap.xml

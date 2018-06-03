@@ -1,0 +1,523 @@
+
+<!--
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html xmlns='http://www.w3.org/1999/xhtml'>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+		<meta http-equiv='X-UA-Compatible' content='IE=Edge' />
+	</head>
+	<body>
+-->
+
+<!-----------------------------------------------------------------------
+-   START:Signup form Content:
+-       Include this block if you are integrating into an existing page.
+------------------------------------------------------------------------>
+
+<style text="text/css">
+    .eemStyleSFBody
+    {
+        margin: 0;
+        padding: 0;
+    }
+    .eemStyleSFForm
+    {
+        line-height: 1.3;
+        font-family: verdana;
+        font-size: 12px;
+        width: 800px;
+    }
+    .eemStyleSFMainOuter
+    {
+        color: #000000;
+        background-color: #009999;
+        width: 600px;
+        margin: 0 auto;
+    }
+    .eemStyleSFTitleOuter
+    {
+        border-bottom-color: #000000;
+        text-align: center;
+        font-weight: normal;
+        padding: 25px 10px;
+        background-color: #336699;
+        font-size: 24px;
+        font-family: Verdana;
+        color: #000000;
+    }
+    .eemStyleSFTitle
+    {
+        color: #000000;
+    }
+    .eemStyleSFLogoDisplay
+    {
+        display: block;
+    }
+    .eemStyleSFLogoOuter
+    {
+        padding: 15px 0;
+        border-bottom: 1px dashed #333;
+        text-align: center;
+        margin: 0 30px;
+    }
+    .eemCompanyNameAddress
+    {
+        padding-top: 10px;
+    }
+    .eemStyleSFCompletion
+    {
+        padding: 10px 0;
+        font-family: Verdana;
+        margin: 0 30px;
+        display: none;
+        font-size: 12px;
+    }
+    .eemStyleSFCompletionIcon
+    {
+        display: none;
+    }
+    .eemStyleSFAjaxWaitIcon
+    {
+        display: none;
+    }
+    .eemStyleSFSectionContent
+    {
+        margin: 0 30px;
+    }
+    .eemStyleSFSectionHeading
+    {
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    .eemRadioInput
+    {
+        padding: 0;
+        height: 13px;
+        width: 13px;
+        .vertical-align: bottom;
+        vertical-align: middle;
+        margin: 0;
+    }
+    .eemStyleSFReq
+    {
+        color: #ff0000;
+        font-size: 11px;
+    }
+    .eemStyleSFError
+    {
+        color: #ff0000;
+        display: none;
+        font-size: 11px;
+    }
+    .eemStyleSFErrorIcon
+    {
+        display: none;
+    }
+    .eemStyleSFEmail
+    {
+        margin: 15px 0;
+    }
+    .eemStyleSFEmail label
+    {
+        display: block;
+        margin-bottom: 3px;
+    }
+    .eemStyleSFEmailPrefs
+    {
+        margin-bottom: 15px;
+    }
+    .eemStyleSFEmailPrefs .eemStyleSFText
+    {
+        padding-bottom: 3px;
+    }
+    .eemStyleSFInterestGroup
+    {
+        margin-bottom: 15px;
+    }
+    .eemStyleSFFormInput
+    {
+        margin-bottom: 15px;
+    }
+    .eemStyleSFButton
+    {
+        margin-bottom: 5px;
+    }
+    .eemStyleSFFormInput a
+    {
+        font-size: 11px;
+    }
+    .eemStyleSFTextFields
+    {
+        margin-bottom: 15px;
+    }
+    .eemStyleSFTextFields label
+    {
+        display: block;
+        margin-bottom: 3px;
+    }
+    .eemStyleSFFormError
+    {
+        margin: 0 15px;
+    }
+    .SFmulti-checkbox
+    {
+        margin-bottom: 5px;
+    }
+    .SFmulti-checkbox label
+    {
+        display: inline-block;
+    }
+    .SFgrp-description
+    {
+        margin-left: 18px;
+    }
+    .eemStyleSFFooterOuter
+    {
+        height: 25px;
+        background-color: #336699;
+    }
+    .eemStyleSFHintText
+    {
+        color: #999999;
+    }
+    input:invalid
+    {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        -moz-box-shadow: none;
+    }
+    .eemStyleSFValue
+    {
+        padding: 3px 0;
+    }
+    .ui-datepicker-trigger
+    {
+        position: relative;
+        left: -21px;
+        top: 4px;
+    }
+    #ui-datepicker-div
+    {
+        width: auto;
+    }
+    #ui-datepicker-div .ui-icon
+    {
+        height: auto;
+        width: auto;
+        background: none;
+    }
+    #ui-datepicker-div.ui-datepicker
+    {
+        padding: 3px;
+        border: 1px solid #ccc;
+        background-color: #fff;
+        font-size: 14px;
+        font-family: arial, verdana, sans-serif;
+        color: #272727;
+    }
+    #ui-datepicker-div .ui-datepicker-header
+    {
+        position: relative;
+        color: inherit;
+        background-color: #fff;
+        margin-bottom: 5px;
+    }
+    #ui-datepicker-div .ui-datepicker-title
+    {
+        font-size: 15px;
+        text-align: center;
+        margin: 0px 2.3em;
+        font-weight: bold;
+        line-height: 1.8em;
+    }
+    #ui-datepicker-div .ui-datepicker-prev
+    {
+        height: 14px;
+        width: 14px;
+        text-indent: -9999em;
+        background-position: -18px -1px;
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        cursor: pointer;
+        background-image: url(//img1.wsimg.com/starfield/sf.datepicker/v0.7.9/images/sprite.png);
+    }
+    #ui-datepicker-div .ui-datepicker-next
+    {
+        height: 14px;
+        right: 5px;
+        width: 14px;
+        text-indent: -9999em;
+        background-position: -33px -1px;
+        position: absolute;
+        top: 5px;
+        cursor: pointer;
+        background-image: url(//img1.wsimg.com/starfield/sf.datepicker/v0.7.9/images/sprite.png);
+    }
+    #ui-datepicker-div .ui-state-hover,
+    #ui-datepicker-div .ui-state-hover
+    {
+        border: 0;
+        background-color: #fff;
+    }
+    #ui-datepicker-div .ui-datepicker-next.ui-state-hover, 
+    #ui-datepicker-div .ui-datepicker-prev.ui-state-hover
+    {
+        border: 0;
+        background-color: none;
+    }
+    #ui-datepicker-div .ui-datepicker-calendar
+    {
+        width: 100%;
+        font-size: 14px;
+    }
+    #ui-datepicker-div .ui-datepicker-calendar td,
+    #ui-datepicker-div .ui-datepicker-calendar th
+    {
+        line-height: 18px;
+        text-align: center;
+        width: 30px;
+        padding: 0;
+        background-color: #fff;
+        height: 20px;
+        color: inherit;
+    }
+    #ui-datepicker-div .ui-datepicker-calendar td a
+    {
+        height: 18px;
+        text-align: center;
+        width: 30px;
+        padding: 1px 0;
+        display: block;
+        text-decoration: none;
+        color: #272727;
+    }
+    #ui-datepicker-div .ui-datepicker-calendar th
+    {
+        border-bottom: 1px solid #aaa;
+        font-weight: normal;
+    }
+    #ui-datepicker-div td.ui-datepicker-other-month
+    {
+        background-color: #ccc;
+    }
+    #ui-datepicker-div .ui-datepicker-calendar td.ui-datepicker-today a
+    {
+        color: #fff;
+        background-color: #363636;
+        font-weight: bold;
+    }
+    #ui-datepicker-div .ui-datepicker-calendar td a.ui-state-active,
+    #ui-datepicker-div .ui-datepicker-calendar td a.ui-state-hover
+    {
+        color: #fff;
+        background-color: #363636;
+    }
+    #ui-datepicker-div.ui-corner-all,
+    #ui-datepicker-div .ui-corner-all
+    {
+        border-radius: 0;
+    }
+    #ui-datepicker-div .ui-state-default, 
+    #ui-datepicker-div .ui-widget-content .ui-state-default, 
+    #ui-datepicker-div .ui-widget-header .ui-state-default
+    {
+        border: 0;
+        background-image: none;
+        background-color: #fff;
+    }
+    #ui-datepicker-div.ui-datepicker .ui-datepicker-prev span, 
+    #ui-datepicker-div.ui-datepicker .ui-datepicker-next span
+    {
+        left: auto;
+        margin: 0;
+        top: auto;
+    }
+</style>
+<form id="frmEEMSignupForm" name="frmEEMSignupForm" eemform="true" method="post" autocomplete="on" class="eemStyleSFForm" action="//app.expressemailmarketing.com/SignupForm.handler?SFAction=ProcessSubmit&SFID=198127&SFCustomerID=198392" eemaction="//app.expressemailmarketing.com/SignupForm.handler?SFAction=ProcessSubmit&SFID=198127&SFCustomerID=198392">
+	<input name="SFContext" id="hidSFContext" type="hidden" />
+	<input name="SFStage" id="hidSFStage" type="hidden" />
+	<input name="SFDebug" id="hidDebug" type="hidden" />
+		
+	<div style="text-align: center; padding: 5px">
+		<span id="lblPreview" style="display: none; font-size: medium" class="eemStyleSFCompletion">
+			[Preview Mode]
+		</span>
+	</div>
+			
+	<div id="divMainOuter" class="eemStyleSFMainOuter">
+
+		<!---------------------------------------------->
+		<!-- Title -->
+		<!---------------------------------------------->
+		<div id="divTitleOuter" class="eemStyleSFTitleOuter">
+			<div id="divTitleInner" class="eemStyleSFTitleInner">
+				<span class="eemStyleSFTitle">
+					Please support our campaign and sign up to our quarterly e-newsletter
+				</span>
+			</div>
+		</div>
+				
+				
+		<!---------------------------------------------->
+		<!-- Logo and address-->
+		<!---------------------------------------------->
+		<div class="eemStyleSFLogoOuter" id="divLogoOuter">
+			<div class="eemStyleSFLogoDisplay" id="divLogoInner">
+				<img id="imgLogo" class="eemStyleSFLogo" src="//cache.nebula.phx3.secureserver.net/obj/QjNDQUI5M0UxMTgxREFCMDI4RDM6YzY3OGM1YmEyZDk5NGVkZWRlOGVjZDc1NTQ0ZTlmNTI6Ojo6" alt="Logo"/>
+			</div>
+			
+			<div class="eemCompanyNameAddress">
+				Active Working C.I.C
+				<br/>
+				Unit 6 Sycamore House, Langdon Park, Teddington, Middx TW11 9PE
+			</div>
+		</div>
+				
+		<!-- Content -->
+		<div class="eemStyleSFSectionContent">
+										
+			<!-------------------------------------->
+			<!-- Question Heading -->
+			<!-------------------------------------->
+			<div class="eemStyleSFSectionHeading">
+				<span id="lblQuestionHeading">To start receiving emails, enter your email address</span>
+			</div>
+					
+					
+			<!-------------------------------------->
+			<!-- Required Text -->
+			<!-------------------------------------->
+			<div class="eemStyleSFReq">
+				* Required
+			</div>
+					
+					
+			<!-------------------------------------->
+			<!-- Email Input -->
+			<!-------------------------------------->
+			<div class="eemStyleSFEmail">
+				<label class="eemStyleSFText">
+					Email Address <span class="eemStyleSFReq"> *</span>
+				</label>
+				<input id="txtSFEmail" name="txtSFEmail" type="email" style="width: 250px;" maxlength="255" value="" class="eemStyleSFValue" eemsfqisreq="true" hinttext="Email Address" eemsfqtype="email" valuetext=""
+					onblur="SF2_ValidateTextField(this)"/>
+				<div id="eemSFQuestionErrorEmail" class="eemStyleSFError" >error message goes here</div>						
+			</div>
+					
+					
+			<!------------------------------------------------------>
+			<!-- Email Preference -->
+			<!------------------------------------------------------>
+			<div class="eemStyleSFEmailPrefs">
+				<div class="eemStyleSFText">
+					Email Preference:
+				</div>
+					
+				<div class="eemStyleSFText">
+					<!-- rblEmailFmt is programatically filled with control(s) based on supported email formats. -->
+					<input id="rbSFEmailFmtHtml" class="eemRadioInput" name="rbSFEmailFmt" type="radio" value="1" checked="checked" />
+					<label for="rbSFEmailFmtHtml">HTML</label>
+					&nbsp;&nbsp;
+					<input id="rbSFEmailFmtText" class="eemRadioInput" name="rbSFEmailFmt" type="radio" value="2"  />
+					<label for="rbSFEmailFmtText">Text</label>
+				</div>
+			</div>
+					
+					
+					
+			<!------------------------------------------------------>
+			<!-- Questions -->
+			<!------------------------------------------------------>
+			
+					
+					
+					
+			<!------------------------------------------------------>
+			<!-- Interest Groups -->
+			<!------------------------------------------------------>
+			<div class="eemStyleSFInterestGroup">
+				<div class="eemStyleSFSectionHeading" id="lblInterestGroupHeading">
+					
+				</div>
+				<div class="eemInterestGrouop">
+					
+				</div>
+			</div>
+					
+					
+					
+			<!-------------------------------------->
+			<!-- Form Submission -->
+			<!-------------------------------------->
+			<div class="eemStyleSFFormInput">
+				<!--input id="btnSFSubmit" name="btnSFSubmit" type="submit" onclick="return (SF2_ValidateFields());" value="Subscribe" class="eemStyleSFButton" /-->
+				<input id="btnSFSubmit" name="btnSFSubmit" type="button" value="Subscribe" class="eemStyleSFButton" />
+				<img id="eemStyleSFAjaxWaitIcon" class="eemStyleSFAjaxWaitIcon" src="//app.expressemailmarketing.com/poseidon/images/ajax_indicators.gif" alt="" />
+				<input id="SignupSourceNameHidden" name="SignupSourceNameHidden" type="hidden" value="" />			
+				<input id="FormMailerRedirect" name="FormMailerRedirect" type="hidden" value="" />
+				<input id="FormMailerRedirectOnError" name="FormMailerRedirectOnError" type="hidden" value="" />
+				<br />
+				<a href="//www.godaddy.com/agreements/ShowDoc.aspx?pageid=6767" target="_blank">Express Email Marketing Privacy Policy</a>
+			</div>			
+					
+		</div>
+			
+            
+		<!---------------------------------------------->
+		<!-- Completion Message -->
+		<!-- Not shown by default because class is display: none -->
+		<!---------------------------------------------->        
+		<div id="tblSFCompletion" class="eemStyleSFCompletion">
+            <img id="eemStyleSFCompletionIcon" class="eemStyleSFCompletionIcon" src="//app.expressemailmarketing.com/poseidon/images/check_mark.png" alt="" />
+            <span id="tblSFCompletionText">
+            </span>
+		</div>            	
+				
+		<!---------------------------------------------->
+		<!-- Error Content -->
+		<!-- Not shown by default because class is display: none -->		
+		<!---------------------------------------------->
+		<div id="tblSFError" class="eemStyleSFMain">
+            <img id="eemStyleSFErrorIcon" class="eemStyleSFErrorIcon" src="//app.expressemailmarketing.com/poseidon/images/x.png" alt="" />
+			<span id="tdSFError" class="eemStyleSFError">
+				Signup Form Error(s)
+			</span>		
+		</div>
+
+		<div class="eemStyleSFFooterOuter">
+			<div class="eemStyleSFFooterText"></div>
+		</div>
+				
+	</div>
+			
+	<!---------------------------------------------->
+	<!-- Completion Message for "other page" -->
+	<!-- Not shown by default because class is display: none -->
+	<!---------------------------------------------->        
+	<div id="tblSFCompletionOtherPage" class="eemStyleSFCompletion">
+		<img id="eemStyleSFCompletionIconOtherPage" class="eemStyleSFCompletionIcon" src="//app.expressemailmarketing.com/poseidon/images/check_mark.png" alt="" />
+		<span id="tblSFCompletionTextOtherPage">
+		</span>
+	</div> 
+</form>
+
+<!----------------------------------------------------------------
+	Please do not remove the below script statements.
+	They are used to handle errors and process the signup form.
+----------------------------------------------------------------->
+<script language="javascript">var jsonSignupFormTranslation = {"invalidlastnamevalidation": "* Please provide a valid last name","invalidfirstnamevalidation": "* Please provide a valid first name","invalidcompanynamevalidation": "* Please provide a valid company name","invalidaddressvalidation": "* Please provide a valid  address (e.g., 1234 N. Main St.).","invalidcityvalidation": "* Please provide a valid city name","invalidpostalcodevalidation": "* Please provide a valid postal code (e.g., 85260)","invalidhomephonevalidation": "* Please provide a valid phone number (e.g., 555-555-5555)","invalidaccountnumbervalidation": "* Please provide a valid account number","invalidwebsitevalidation": "* Please provide a valid URL (e.g., http://coolexample.com)","Questionvalidation1": "*This is a required field.","Invalidquestiondatevalidation": "*Please use the proper date format (e.g, 01/01/2012)","invalidemailaddressvalidation": "* Please provide a valid email address (e.g., email@domain.com).","invalidworkphonevalidation": "* Please provide a valid phone number (e.g., 555-555-5555)","Invalidquestionnumericvalidation": "*Please use the proper number format.","Update": "Update"};</script>    
+				 <script language="javascript" src="//app.expressemailmarketing.com/images/gallery/Templates/SignupForm/EEMQueryString.js?ver=2"></script>
+			    
+				 <script language="javascript" src="//app.expressemailmarketing.com/images/gallery/Templates/SignupForm/EEMSignupForm.js?ver=3"></script>
+			
+<!----------------------------------------------------------------
+	-   END:Signup form Content:
+	-       Include this block if you are integrating into an existing page.
+----------------------------------------------------------------->
+
+
+<!--
+	</body>
+</html>
+-->

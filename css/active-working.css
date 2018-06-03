@@ -1,0 +1,82 @@
+/* some colours commoN to all */
+h1.activeworking, .gbs-expert.activeworking, 
+.gbs-expert.activeworking a,
+a.link-underlined.activeworking,
+.bluetitle.activeworking,
+.gb-blue.activeworking,
+.normalblue.activeworking,
+.keyinfolblue.activeworking
+ {
+    color: #3f5ca0;
+}
+
+.shortcode_iconbox {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+/* expert statement page */
+.blue-bold-underlined {
+    color:#0066CB;
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+.blue-bold {
+    color:#0066CB;
+    font-weight:bold;
+}
+.blue-italics {
+    color:#0066CB;
+    font-style:italic;
+}
+
+ul.show-bullets {
+    list-style-type:disc;
+    margin-left:15px;
+}
+
+/* gbs supporters pages */.gbs-supp-name {  display:inline-block;  min-width:250px;}.supporters-horizont a.active {  #color:#EA1E30;}.supporters-horizont {  display:inline-block;  padding:10px 10px 10px 10px;  background-color:#0066CB;  margin-bottom:3px;}.supporters-horizont a {  color:white;  padding:10px;}.supporters-horizont:hover {  background-color:white;  #border: 1px solid #0066CB;}.supporters-horizont:hover a{  color:#0066CB;}
+.supporters-horizont.active {  background-color:#EA1E30;}
+
+
+/* taken from /activeworkingsummit */
+.aw-partners-text-l, .aw-partners-text-m  {  float:left;  margin-top:10px;  max-width:75%;}.aw-partners-text-l {  margin-top:5px;}.aw-partners-text-s {  float:left;  #max-width:400px;  max-width:55.5%;  margin-right:5px;}.aw-partners-pics-l, .aw-partners-pics-m {  float:right;  max-width:23.5%;}.aw-partners-pics-m img, .aw-partners-pics-l img {  width:75px;  margin-left:5px;  margin-top:10px;}.aw-partners-pics-s img {  width:75px;  margin-left:5px;}.aw-partners-pics-l img:hover, .aw-partners-pics-m img:hover, .aw-partners-pics-s img:hover {  transform: scale(1.1);}.aw-partners-logo-m {  width:130px;}.aw-partners-logo-s {  width:110px;   float:left;    margin-right: 20px;}.aw-partners-pics-s{  float:right;  #max-width:23.5%;}.aw-maincontent hr {height:10px;}
+
+/* smallwidth extended styles */.smallwidth-ext {	width:75%;	float:left;}.restofsmall-ext {	width: 20%;	float: left;	margin-left: 2%;}.restofsmall-pic, .restofsmall-ext a, .restofsmall-ext .freetrial {	clear:both;	margin-bottom:40px;}.restofsmall-pic {	#height:237px;}.restofsmall-ext .freetrial a {	margin-bottom:0px;}a.supporters-findout { vertical-align: 25px; color:#0066CB; text-decoration:underline; margin-left:5px;}a.supporters-findout:hover {	color:#EA1E30;}
+
+/* correct media page */.medialeft img {    border:4px solid #ececec;}.medialeft img:hover {   # opacity:0.6;     border:4px solid #336699;}/* new companies layout*/.columnpic-single {  float:left;    margin-right:20px;    margin-bottom:20px;    max-width:130px;    background-color:black}img.darken:hover {  opacity:0.7;  transition: all 0.5s linear;}
+
+
+/* additional slider homepage */
+
+#gbs-slideshow { 
+    position: relative;
+    margin-bottom:150px; 
+}
+
+#gbs-slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    bottom: 10px; 
+}
+
+
+/* new active working pages */
+.large {
+  font-size:22px;
+  font-weight:bold;
+}
+
+.aw-newblue {
+  color:#b72b5a;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 759px) {.smallwidth-ext {	width: 100%;	float:none;}.restofsmall-ext {	width:100%;	margin-left:0;}.restofsmall-ext a , .freetrial, .aw-partners-pics-s{	display:none;}}
+

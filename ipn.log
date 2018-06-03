@@ -1,0 +1,33 @@
+[2015-09-13 12:27 UTC] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 960
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=583.80&protection_eligibility=Ineligible&payer_id=HXNQ4HN5P38L8&tax=97.30&payment_date=05%3A27%3A09+Sep+13%2C+2015+PDT&payment_status=Completed&charset=windows-1252&first_name=marta&option_selection1=Suppliers+-+FULL+DAY+-&mc_fee=20.05&notify_version=3.8&custom=366&payer_status=verified&business=andrzejd%40yahoo.co.uk&quantity=1&verify_sign=AwltFnOIhSolPNOafA-Y-6p2ZzcrAWBEyXoImNJ-u81ucFZUntCiL2qw&payer_email=marta%40yahoo.co.uk&option_name1=Choose+correct+option&txn_id=0CM64819DM4620027&payment_type=instant&btn_id=3040983&last_name=damiecka&receiver_email=andrzejd%40yahoo.co.uk&payment_fee=&shipping_discount=0.00&insurance_amount=0.00&receiver_id=N336Y2ZRFSB7J&txn_type=web_accept&item_name=Active+Working+Summit+Entry&discount=0.00&mc_currency=GBP&item_number=0001&residence_country=GB&test_ipn=1&handling_amount=0.00&shipping_method=Default&transaction_subject=366&payment_gross=&shipping=0.00&ipn_track_id=c59cba9b20bbb
+[2015-09-13 12:27 UTC] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Paypal-Debug-Id: c2b2fc246439c
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-b-origin-www-2.paypal.com
+Date: Sun, 13 Sep 2015 12:27:13 GMT
+Content-Length: 7
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=hMbnkzeCxtjBwFDXeYu3HqlmrWtRB1XlCqb-4vPHqBD7-cA3iTefAiJ4sehtO3lgHHJkn80rd-JlAwaNOg49F2-L4gFrCz_yMuR7SspUtIcrlDXNcmv-TFUJPW9ehHsgTd81Mmi4LNGqMF3g06ZRy8Zfq7ZesTFq1D6yuQgrgD4ItPkdFCbMKzcvQBINJyW11bscd4VmDfYDz_f6PVMe0bl5-vCvNTIBQUJS4-bWEc828uMmpeDKN2ta4BIEF28tpBF4fM8B7PzDFPawfPztx0m-EWiIh-gGqaZmhd-PwNtvnE5MnPFgUnsUW_bN1LBdv_Q32-n-HUtJWWCcKH-lI99tPiOoVumK2VojhgipurUgcqXTCPlbh0pDVuIf0VYH9V5OoCbGm1n-mX7MuxXAtkQF-ckzWjwPHRxjQAEd9-GdcOCQ8cgUY0mGCIy; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Wed, 10-Sep-2025 12:27:13 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Tue, 12-Sep-2017 12:27:13 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.74.8.137.1442147233422939; path=/; expires=Tue, 05-Sep-45 12:27:13 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE6.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2708206933; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.74.8.63.1442147233409068; path=/; expires=Tue, 05-Sep-45 12:27:13 GMT
+Set-Cookie: AKDC=slc-b-origin-www-2.paypal.com; expires=Sun, 13-Sep-2015 12:57:13 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+INVALID
